@@ -20,7 +20,7 @@ export default class Dom {
             $("#start_bar").css("display", "none");
             this.setStartCurrentInterface();
             const remaining = this.eventReceiver("start");
-            this.setRemainingLaunch(remaining)
+            this.setRemainingLaunch(remaining);
         });
     }
 

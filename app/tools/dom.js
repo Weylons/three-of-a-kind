@@ -33,11 +33,11 @@ export default class Dom {
 
     setDiceEvent() {
         $(".dices").on("click", (e) => {
-            if ($("#start_bar").css("display") === "none") {
+            // if ($("#start_bar").css("display") === "none") {
                 $(e.target).toggleClass("selected");
                 const id = parseInt(e.target.id.split("_")[1]) - 1;
                 this.eventReceiver("selected", id);
-            }
+            // }
         });
     }
 

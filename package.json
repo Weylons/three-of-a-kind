@@ -9,7 +9,7 @@
   },
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "tests": "jest"
   },
   "dependencies": {
     "jquery": "^3.6.0",
